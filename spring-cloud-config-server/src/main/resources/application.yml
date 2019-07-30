@@ -1,3 +1,5 @@
+# 访问
+# http://localhost:8001/git-config/dev;http://localhost:8001/git-config/test;http://localhost:8001/git-config/prod
 server:
   port: 8001
 spring:
@@ -7,7 +9,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ityouknow/spring-cloud-starter/     # 配置git仓库的地址
-          search-paths: config-repo                                   # git仓库地址下的相对地址，可以配置多个，用,分割。
-          username:                                                   # git仓库的账号
-          password:                                                   # git仓库的密码
+          # 配置git仓库的地址
+          uri: https://github.com/JackFeng123/spring-cloud-examples.git
+          # git仓库地址下的相对地址，可以配置多个，用,分割
+          search-paths: config-repo
+          username:
+          password:
