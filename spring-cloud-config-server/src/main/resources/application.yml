@@ -1,4 +1,4 @@
-# ·ÃÎÊ
+# è®¿é—® dev/test/prod
 # http://localhost:8001/git-config/dev;http://localhost:8001/git-config/test;http://localhost:8001/git-config/prod
 server:
   port: 8001
@@ -9,9 +9,9 @@ spring:
     config:
       server:
         git:
-          # ÅäÖÃgit²Ö¿âµÄµØÖ·
+          # é…ç½®gitä»“åº“çš„åœ°å€
           uri: https://github.com/JackFeng123/spring-cloud-examples.git
-          # git²Ö¿âµØÖ·ÏÂµÄÏà¶ÔµØÖ·£¬¿ÉÒÔÅäÖÃ¶à¸ö£¬ÓÃ,·Ö¸î
+          # gitä»“åº“åœ°å€ä¸‹çš„ç›¸å¯¹åœ°å€ï¼Œå¯ä»¥é…ç½®å¤šä¸ªï¼Œç”¨,åˆ†å‰²
           search-paths: config-repo
           username:
           password:
